@@ -1,0 +1,112 @@
+cell_type:
+  T.cell: "#33a02c"
+  B.cell: "#1f78b4"
+  Plasma.cell: "#a6cee3"
+  Monocyte: "#ff7f00"
+  Myeloid.cell: "#ff7f00"
+  Dendritic.cell: "#b15928"
+  Mast.cell: "#c4a731"
+  Endothelial.cell: "#cab2d6"
+  Fibroblast: "#6a3d9a"
+  Ovarian.cancer.cell: "#e31a1c"
+  Other: "#b3b3b3"
+tumor_megasite:
+  Adnexa: "#ff0000"
+  Ascites: "#56B4E9"
+  Other: "#56B4E9"
+tumor_supersite:
+  Adnexa: "#ff0000"
+  Ascites: "#E69F00" # palette_OkabeIto[1]
+  Bowel: "#56B4E9" # palette_OkabeIto[2]
+  Omentum: "#0072B2" # palette_OkabeIto[3]
+  Peritoneum: "#F0E442" # palette_OkabeIto[4]
+  Upper Quadrant: "#009E73" # palette_OkabeIto[5]
+  UQ: "#009E73" # palette_OkabeIto[5]
+  Other: "#999999" # grey60
+  Unknown: "#999999" # grey60
+tumor_site:
+  Left Adnexa: "#ff0000"
+  Right Adnexa: "#ff0000"
+  Ascites: "#E69F00" # palette_OkabeIto[1]
+  Bowel: "#56B4E9" # palette_OkabeIto[2]
+  Omentum: "#0072B2" # palette_OkabeIto[3]
+  Pelvic Peritoneum: "#F0E442" # palette_OkabeIto[4]
+  Left Upper Quadrant: "#009E73" # palette_OkabeIto[5]
+  Right Upper Quadrant: "#009E73" # palette_OkabeIto[5]
+  Other: "#999999" # grey60
+  Unknown: "#999999" # grey60
+tumor_type:
+  Primary: "#ff0000"
+  Metastasis: "#56B4E9" # palette_OkabeIto[2]
+  Unknown: "#999999" # grey60
+patient_id: 
+  SPECTRUM-OV-002: "#ee2f00"
+  SPECTRUM-OV-003: "#ee2f24"
+  SPECTRUM-OV-004: "#ef3e24"
+  SPECTRUM-OV-007: "#f04e23"
+clone_id:
+  1: "#FF0000"
+  2: "#005EB5"
+  3: "#009D00"
+  4: "#FF008C"
+  5: "#FFCC00"
+  6: "#FF9000"
+  7: "#B90088"
+  8: "#00B4D7"
+  9: "#69D800"
+  10: "#20239E"
+  11: "#FF5E00"
+  12: "#71008C"
+  13: "#B8EE00"
+  14: "#00A9A9"
+  15: "#F2FC00"
+cell_type_mpif:
+  Ovarian.cancer.cell: "#e31a1c"
+  CD8.T.cell: "#33a02c"
+  Monocyte: "#ff7f00"
+  Other: "#b3b3b3"
+  Unknown: "#999999"
+rate_scdna:
+  Misseg rate: "#e31a1c"
+clone_specificity:
+  Private: "#e31a1c"
+  Shared: "#6a3d9a"
+copy_number:
+  0: "#3182BD"
+  1: "#9ECAE1"
+  2: "#CCCCCC"
+  3: "#FDCC8A"
+  4: "#FC8D59"
+  5: "#E34A33"
+  6: "#B30000"
+  7: "#980043"
+  8: "#DD1C77"
+  9: "#DF65B0"
+  10: "#C994C7"
+  # 11+: "#D4B9DA"
+rearrangement_type:
+  duplication: "#3182BD"
+  deletion: "#9ECAE1"
+  inversion: "#CCCCCC"
+  translocation: "#FDCC8A"
+ploidy:
+  Haploid: "red"
+  Diploid: "#CCABD8"
+  Triploid: "blue"
+  Tetraploid: "blue"
+  Polyploid: "#8474A1"
+cn_state:
+  Gain: "#ff0000"
+  Loss: "#0072B2"
+ascn_state_short:
+  Balanced: "#3182BD"
+  Imbalanced: "#9ECAE1"
+  LOH: "#CCCCCC"
+ascn_state:
+  A-Gained: "#53AFC0"
+  A-Hom: "#025767"
+  A-LOH: "#025767"
+  B-Gained: "#FF9E41"
+  B-Hom: "#A75200"
+  B-LOH: "#9ECAE1"
+  Balanced: "#999999"
